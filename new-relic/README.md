@@ -58,7 +58,7 @@ The bash script accepts credentials three ways, highest precedence first:
 
 1. **CLI flags** — `--api-key`, `--accounts`, `--region`
 2. **Environment variables** — `NEW_RELIC_USER_API_KEY`, `NEW_RELIC_ACCOUNT_ID`, `NEW_RELIC_REGION`
-3. **`.env` file** — same variable names; the current directory is checked first, then the repo root
+3. **`.env` file** — same variable names; the current directory is checked first, then the `new-relic/` folder (one level above the script)
 
 Never commit a `.env` file — it is git-ignored for this reason.
 
